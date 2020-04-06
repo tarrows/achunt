@@ -4,17 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "dev": "next dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/tarrows/sprinter.git"
+  "dependencies": {
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/tarrows/sprinter/issues"
-  },
-  "homepage": "https://github.com/tarrows/sprinter#readme"
+  "devDependencies": {
+    "@types/node": "^13.11.0",
+    "@types/react": "^16.9.32",
+    "typescript": "^3.8.3"
+  }
 }
